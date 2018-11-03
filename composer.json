@@ -1,0 +1,39 @@
+{
+    "name": "guilty/craft-slugify",
+    "description": "Adds slugify twig extensions to your craft install.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "slug"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilty AS",
+            "homepage": "https://guilty.no"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1",
+        "cocur/slugify": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Guilty\\CraftSlugify\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Craft Slugify",
+        "handle": "craft-slugify",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "developer": "Guilty AS",
+        "developerEmail": "tech@guilty.no",
+        "developerUrl": "https://guilty.no",
+        "class": "Guilty\\CraftSlugify\\CraftSlugify"
+    }
+}
